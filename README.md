@@ -1,6 +1,6 @@
 # React Starterify
 
-An opinionated React JS application skeleton.
+An opinionated (but still minimal) React JS application skeleton.
 
 ## Usage
 
@@ -44,3 +44,6 @@ __Ajax__
 
 __Server/livereload__
 - [Browser Sync](http://www.browsersync.io/)
+
+__Test
+- [Jest](https://facebook.github.io/jest/)

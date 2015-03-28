@@ -15,6 +15,7 @@ var gulp = require('gulp'),
     notify = require('gulp-notify'),
     browserSync = require('browser-sync'),
     sourcemaps = require('gulp-sourcemaps'),
+    jest = require('gulp-jest'),
     reload = browserSync.reload,
     p = {
       jsx: './scripts/app.jsx',
@@ -74,6 +75,24 @@ gulp.task('styles', function() {
     .pipe(csso())
     .pipe(gulp.dest(p.distCss))
     .pipe(reload({stream: true}));
+});
+
+gulp.task('test', function() {
+  return gulp.src('__tests__').pipe(jest({
+    scriptPreprocessor: './preprocessor.js',
+    unmockedModulePathPatterns: [
+      'node_modules/react'
+    ],
+    testDirectoryName: 'spec',
+    testPathIgnorePatterns: [
+      'node_modules'
+    ],
+    moduleFileExtensions: [
+      'js',
+      'json',
+      'react'
+    ]
+  }));
 });
 
 gulp.task('watchTask', function() {
