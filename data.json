@@ -1,0 +1,96 @@
+{
+   "id": 3,
+   "status": "pending",
+   "answers": {
+      "1": [
+         {
+            "date": "05/04/2015",
+            "expense_type": "air_ticket",
+            "purpose": "rating_meetings",
+            "payment": "credit_card",
+            "currency": "usd",
+            "rate": "12",
+            "amount": "222",
+            "memo": "222",
+            "status": ""
+         },
+         {
+            "date": "05/13/2015",
+            "expense_type": "air_ticket",
+            "purpose": "rating_meetings",
+            "payment": "credit_card",
+            "currency": "usd",
+            "rate": "1",
+            "amount": "111",
+            "memo": "1111",
+            "status": ""
+         }
+      ]
+   },
+   "created_at": "2015-05-05T14:47:37.342+08:00",
+   "updated_at": "2015-05-05T14:47:37.342+08:00",
+   "url": "http://g.lvh.me:3000/tasks/3.json",
+   "user": {
+      "name": "",
+      "id": 1
+   },
+   "approver": {
+      "name": "",
+      "id": ""
+   },
+   "form": {
+      "name": "Expense Report 2015",
+      "id": 1,
+      "icon": "fa-money",
+      "fields": [
+         {
+            "id": 1,
+            "name": "field_1430804071554",
+            "field_type": "expense",
+            "required": false,
+            "properties": {
+               "hint": "",
+               "label": "Expense",
+               "payments": [
+                  {
+                     "label": "Credit Card",
+                     "value": "credit_card"
+                  },
+                  {
+                     "label": "Paypal",
+                     "value": "paypal"
+                  },
+                  {
+                     "label": "Bank Transfer",
+                     "value": "bank_transfer"
+                  }
+               ],
+               "purposes": [
+                  {
+                     "label": "Rating meetings",
+                     "value": "rating_meetings"
+                  }
+               ],
+               "categories": [
+                  {
+                     "label": "Air Ticket",
+                     "value": "air_ticket"
+                  }
+               ],
+               "currencies": [
+                  {
+                     "label": "USD",
+                     "value": "usd"
+                  },
+                  {
+                     "label": "SGD",
+                     "value": "sgd"
+                  }
+               ]
+            },
+            "position": 1,
+            "options": []
+         }
+      ]
+   }
+}
