@@ -18,3 +18,9 @@ it defines how the form will look like.
 ├── /fields/                      # directory to hold different form fields
 │   ├── /expense.jsx              # the components for "field_type": "expense"
 ```
+
+
+##final data requirement.
+
+* user needs to be able to set save PUT request to /tasks/task_id
+* saved data doesn't need to include ***form*** attribute
