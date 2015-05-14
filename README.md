@@ -2,9 +2,9 @@
 
 You need to convert the index.html to use reactJS
 
-[[File:assets\screen1.png]]
+![](https://github.com/triosky/react-starterify/blob/master/assets/screen1.png)
 
-[[File:assets\screen2.png]]
+![](https://github.com/triosky/react-starterify/blob/master/assets/screen2.png)
 
 ##Data Formats.
 
