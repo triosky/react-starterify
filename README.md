@@ -2,6 +2,10 @@
 
 You need to convert the index.html to use reactJS
 
+[[File:assets\screen1.png]]
+
+[[File:assets\screen2.png]]
+
 ##Data Formats.
 
 The predefined data is available at ***data.json***
